@@ -11,8 +11,11 @@ import UIKit
 class Shops: Codable {
     let shopName : String
     let phoneNum : String
-    init(shopName : String, phoneNum : String){
+    let shopId : String
+  
+    init(shopName : String, phoneNum : String, shopId : String){
         self.shopName = shopName
         self.phoneNum = phoneNum
+        self.shopId = shopId
     }
 }

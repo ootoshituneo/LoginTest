@@ -90,13 +90,17 @@ class ProfileViewController: UIViewController,UITableViewDataSource,UITableViewD
         return cell
     }
     
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //let selectedIndex = indexPath.row
+        performSegue(withIdentifier: "showStamp", sender: self)
     }
     
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? StampViewController {
+            destination.shop = shops[(tableView.indexPathForSelectedRow?.row)!]
+        }
+    }
    
 
 }

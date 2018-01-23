@@ -16,6 +16,7 @@
 		A912C33F2017136400A2E46E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912C33E2017136400A2E46E /* ProfileViewController.swift */; };
 		A9F4A1692017383D00D19242 /* ShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F4A1682017383D00D19242 /* ShopCell.swift */; };
 		A9F4A16D2017388400D19242 /* Shops.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F4A16C2017388400D19242 /* Shops.swift */; };
+		A9F4A17320175A8400D19242 /* StampViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F4A17220175A8400D19242 /* StampViewController.swift */; };
 		D5B4DDEEFBBE425EEA682DF0 /* Pods_LoginTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F11ACF78E02E9E267415D87 /* Pods_LoginTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		A912C33E2017136400A2E46E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A9F4A1682017383D00D19242 /* ShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCell.swift; sourceTree = "<group>"; };
 		A9F4A16C2017388400D19242 /* Shops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shops.swift; sourceTree = "<group>"; };
+		A9F4A17220175A8400D19242 /* StampViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampViewController.swift; sourceTree = "<group>"; };
 		DE8105DEBAF1FDD4C2B7D5B0 /* Pods-LoginTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginTest/Pods-LoginTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 				A912C33E2017136400A2E46E /* ProfileViewController.swift */,
 				A9F4A1682017383D00D19242 /* ShopCell.swift */,
 				A9F4A16C2017388400D19242 /* Shops.swift */,
+				A9F4A17220175A8400D19242 /* StampViewController.swift */,
 				A912C32E2016EDE600A2E46E /* Main.storyboard */,
 				A912C3312016EDE600A2E46E /* Assets.xcassets */,
 				A912C3332016EDE600A2E46E /* LaunchScreen.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A912C32D2016EDE600A2E46E /* ViewController.swift in Sources */,
+				A9F4A17320175A8400D19242 /* StampViewController.swift in Sources */,
 				A9F4A1692017383D00D19242 /* ShopCell.swift in Sources */,
 				A912C33D2017126900A2E46E /* LoginController.swift in Sources */,
 				A912C33F2017136400A2E46E /* ProfileViewController.swift in Sources */,

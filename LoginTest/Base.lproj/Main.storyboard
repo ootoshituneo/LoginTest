@@ -85,6 +85,41 @@
             </objects>
             <point key="canvasLocation" x="470" y="899"/>
         </scene>
+        <!--Stamp View Controller-->
+        <scene sceneID="6Bv-br-3ru">
+            <objects>
+                <viewController id="IDZ-9j-3ND" customClass="StampViewController" customModule="LoginTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xjo-A6-bNX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S1l-iR-3iR">
+                                <rect key="frame" x="285" y="70" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="Logout:" destination="IDZ-9j-3ND" eventType="touchUpInside" id="zs6-97-nlY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3C-Pw-mOj">
+                                <rect key="frame" x="16" y="75" width="201" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="L7Y-gv-hyl"/>
+                    </view>
+                    <connections>
+                        <outlet property="userName" destination="k3C-Pw-mOj" id="OaY-xa-iqL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I5M-an-mbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1960.8" y="142.57871064467767"/>
+        </scene>
         <!--Login Controller-->
         <scene sceneID="41z-co-J1Y">
             <objects>
@@ -202,6 +237,7 @@
                     <connections>
                         <outlet property="labelUserName" destination="T5l-kE-k1Z" id="hkZ-8K-vId"/>
                         <outlet property="tableView" destination="auv-io-TP0" id="CMM-lK-6ON"/>
+                        <segue destination="IDZ-9j-3ND" kind="show" identifier="showStamp" id="eM4-My-JCU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kPJ-kn-7Iq" userLabel="First Responder" sceneMemberID="firstResponder"/>
